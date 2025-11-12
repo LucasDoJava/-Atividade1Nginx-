@@ -1,7 +1,7 @@
 # Instalação dos serviços
 
     docker run -itd --name loadbalancer -p 82:80 nginx:1.29.3-alpine
-    docker run -itd --name node1´-v caminho/do/projeto:usr/share/nginx/html nginx:1.29.3-alpine
+    docker run -itd --name node1-v caminho/do/projeto:usr/share/nginx/html nginx:1.29.3-alpine
     docker run -itd --name node2 -v caminho/do/arquivo:usr/share/nginx/html nginx:1.29.3-alpine
     docker run -itd --name node3 -v caminho/do/arquivo:usr/share/nginx/html nginx:1.29.3-alpine
 
